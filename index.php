@@ -1,5 +1,13 @@
 <?php
     require 'config.php';
+    session_start();
+
+    if(isset($_SESSION["id"]) && !empty($_SESSION['id'])){
+
+    }else {
+       header("Location: login.php");
+    }
+
 ?>    
 <a href="adicionar.php">Adicionar novo usuario</a>
 <table border="0" width="100%">
