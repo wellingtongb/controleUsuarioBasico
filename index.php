@@ -35,8 +35,8 @@
 <hr>
 <br>
 <form method="POST"  enctype="multipart/form-data" action="recebeFile.php">
-    <input type="file" name="arquivo"/> </br></br>
-    <input type="submit" value="enviar"/></br></br>
+    <input type="file" name="arquivos[]"  multiple/> </br></br>
+    <input type="submit" value="enviar Arquivos"/></br></br>
 </form>
 <hr>
 
